@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Ma - Tarjeta de Presentación</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f7f0;
+      color: #000000;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin: 0 0 6px 0;
+    }
+    h2 {
+      font-size: 1.2rem;
+      color: #2e7d4f;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+  <header style="text-align: center; margin-bottom: 10px;">
+    <img src="https://api.dicebear.com/7.x/initials/svg?seed=JM&backgroundColor=2e7d4f&fontColor=ffffff"
+         alt="Foto de Juan Ma" width="100" height="100"
+         style="border-radius: 50%; border: 3px solid #2e7d4f; margin-bottom: 12px;">
+    <h1 id="nombre">Juan Ma</h1>
+    <p style="color: #555; margin: 0;">@jm.cxstrz</p>
+  </header>
+
+  <main>
+    <section class="tarjeta">
+
+      <section>
+        <h2>Sobre mí</h2>
+        <p>Alo soy Juan Ma a mi me apasiona servir,escuchar y comprender a los demas, conectar con personas y explorar nuevas ideas. Esta es mi red mas utilizada.</p>
+      </section>
+
+      <section>
+        <h2>Contacto</h2>
+        <div class="botones">
+          <button class="boton boton-primario" onclick="cambiarColorNombre()">
+            🎨 Cambiar color del nombre
+          </button>
+          <button class="boton" onclick="toggleContacto()">
+            📱 Ver mis redes sociales
+          </button>
+        </div>
+
+        <p id="contacto" class="info-contacto oculto">
+          📸 Instagram: <a href="https://instagram.com/jm.cxstrz" target="_blank">@jm.cxstrz</a><br>
+          
+      </section>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Juan Ma — Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

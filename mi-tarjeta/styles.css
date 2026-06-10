@@ -1,0 +1,81 @@
+tarjeta {
+  background-color: #ffffff;
+  border: 2px solid #2e7d4f;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(46, 125, 79, 0.15);
+  padding: 32px 40px;
+  max-width: 440px;
+  width: 90%;
+  margin: 0 auto 24px auto;
+}
+ 
+/* Estilo base de todos los botones */
+.boton {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+  border: 2px solid #2e7d4f;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  font-weight: 600;
+}
+ 
+.boton:hover {
+  background-color: #c8e6c9;
+  transform: translateY(-2px);
+}
+ 
+/* Variante principal del botón */
+.boton-primario {
+  background-color: #2e7d4f;
+  color: #ffffff;
+  border-color: #1b5e20;
+}
+ 
+.boton-primario:hover {
+  background-color: #1b5e20;
+}
+ 
+/* Bloque de información de contacto */
+.info-contacto {
+  margin-top: 16px;
+  padding: 16px 20px;
+  background-color: #f1f8f3;
+  border-left: 4px solid #2e7d4f;
+  border-radius: 0 8px 8px 0;
+  font-size: 1rem;
+  line-height: 2;
+}
+ 
+.info-contacto a {
+  color: #2e7d4f;
+  text-decoration: none;
+  font-weight: 600;
+}
+ 
+.info-contacto a:hover {
+  text-decoration: underline;
+}
+ 
+/* Clase que oculta elementos */
+.oculto {
+  display: none;
+}
+ 
+/* Contenedor de botones */
+.botones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+ 
+/* Footer */
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 0.85rem;
+  padding: 16px;
+}
